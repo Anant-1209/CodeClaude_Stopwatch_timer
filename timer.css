@@ -1,0 +1,138 @@
+
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f7eb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 69vh;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-top: 00px;
+  width: 634px;
+  height: 320px;
+}
+
+.name h1 {
+  margin: 50px;
+}
+
+
+.timer__countdown {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.timer__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 11px;
+}
+
+.timer__value {
+  background-color: #FF473D;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 10px;
+  text-align: center;
+  width: 80px;
+}
+
+.timer__label {
+  font-size: 16px;
+  color: #888;
+}
+
+.timer__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.timer__btn {
+  /* background-color: #FF6347; */
+  background-color: #4CAF50;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timer__btn:hover {
+  background-color: #FF473D;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.stopwatch,.timer1 {
+  /* background-color: white; */
+  border-radius: 0px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  margin: 0 5px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+
+button {
+  background-color: #4CAF50;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 34px;
+	margin: 6px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 44px;
+	margin: -50px;
+}
+/* 
+.btn:hover {
+  background-color: #FF473D;
+} */
+
+button:hover {
+  background-color: #d46468;
+}

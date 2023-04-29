@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/stopwatch&timer_project2/logo.avif">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="timer.css">
+
+</head>
+
+<body>
+
+  <div>
+    <h1>
+      Select your choice
+    </h1>
+  </div>
+  <div class="main">
+    <div class="stopwatch">
+      <a href="index.html"><button>STOPWATCH</button></a>
+    </div>
+    <div class="timer1">
+      <a href="timer.html"> <button>TIMER</button></a>
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <div class="timer">
+      <div class="name">
+        <h1>Countdown timer</h1>
+      </div>
+      <div class="timer__countdown">
+
+        <div class="timer__item">
+          <div id="days" class="timer__value">00</div>
+          <div class="timer__label">Days</div>
+        </div>
+        <div class="timer__item">
+          <div id="hours" class="timer__value">00</div>
+          <div class="timer__label">Hours</div>
+        </div>
+        <div class="timer__item">
+          <div id="minutes" class="timer__value">00</div>
+          <div class="timer__label">Minutes</div>
+        </div>
+        <div class="timer__item">
+          <div id="seconds" class="timer__value">00</div>
+          <div class="timer__label">Seconds</div>
+        </div>
+      </div>
+      <div class="timer__buttons">
+        <button id="set-timer-btn" class="timer__btn">Set Timer</button>
+        <button id="reset-timer-btn" class="timer__btn">Reset Timer</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

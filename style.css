@@ -1,0 +1,125 @@
+
+*{
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+} 
+
+body {
+	background-color: #f5f7eb;
+	margin: 00;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 34px;
+	margin: 6px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 44px;
+	margin: -50px;
+}
+
+button:hover {
+	background-color: #d46468;
+}
+
+
+.main {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.stopwatch,
+.timer {
+	/* background-color: white; */
+	border-radius: 5px;
+	/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+	margin: 0 10px;
+	padding: 20px;
+	text-align: center;
+	width: 200px;
+}
+
+.maincontainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.container {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	padding: 50px;
+	text-align: center;
+	width: 942px;
+}
+
+#time {
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.txt {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 10px;
+	vertical-align: middle;
+}
+
+.digit {
+	background-color: #4CAF50;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	font-size: 48px;
+	font-weight: bold;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 10px;
+	text-align: center;
+	width: 80px;
+}
+
+#count {
+	background-color: #f44336;
+}
+
+.stopbutton {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#buttons {
+	display: flex;
+}
+
+.btn {
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 5px;
+	padding: 11px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
